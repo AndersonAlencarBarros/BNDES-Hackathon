@@ -5,13 +5,17 @@ import Stack from '@mui/material/Stack';
 import { purple } from '@mui/material/colors';
 
 const BootstrapButton = styled(Button)({
-  alignItems: 'flex-end',
-  justifyContent: 'flex-end',
+  alignItems: 'center',
+  justifyContent: 'center',
+  textAlign: 'center',
+  width: 200,
+  height: 40,
+  fontWeight: 'bold',
   boxShadow: 'none',
   textTransform: 'none',
-  fontSize: 16,
+  fontSize: 20,
   padding: '6px 12px',
-  margin: '10px',
+  margin: '10px 200px',
   border: 'none',
   lineHeight: 1.5,
   backgroundColor: '#C32828',

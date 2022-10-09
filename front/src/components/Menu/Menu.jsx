@@ -23,9 +23,10 @@ export default function AccountMenu() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: 'flex', alignItems: 'flex-end', textAlign: 'center', justifyContent: 'flex-end' }}>
+      <Box sx={{ display: 'flex', alignItems: 'flex-end', textAlign: 'center', justifyContent: 'flex-end', }}>
         <Typography sx={{ minWidth: 100 }}>Cadastro</Typography>
-        <Typography sx={{ minWidth: 100 }}>Contato</Typography>
+        <Typography sx={{ minWidth: 100 }}>Histórico</Typography>
+        <Typography sx={{ minWidth: 100 }}>Consultorias</Typography>
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
@@ -65,7 +66,7 @@ export default function AccountMenu() {
               right: 14,
               width: 10,
               height: 10,
-              bgcolor: 'background.paper',
+              bgcolor: 'background.sucess ',
               transform: 'translateY(-50%) rotate(45deg)',
               zIndex: 0,
             },
