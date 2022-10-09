@@ -9,6 +9,7 @@ import ButtonInit from "./components/Button/Button";
 import AccountMenu from "./components/Menu/Menu";
 import Cadastrar from "./container/Cadastro/Cadastro";
 import Quest from "./container/Quest/Quest";
+import QuestSim from "./container/QuestSim/QuestSimjsx";
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 			<Footer />
 			<Cadastrar />
 			<Quest />
+			<QuestSim />
 		</Box>
 	);
 }

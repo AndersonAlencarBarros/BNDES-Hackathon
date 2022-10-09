@@ -48,7 +48,7 @@ const itemData = [
   },
   {
     img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Hamburger',
+    title: 'Lanches',
     
   },
   {

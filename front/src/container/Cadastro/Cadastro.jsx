@@ -29,6 +29,7 @@ export default function Cadastrar() {
           helperText="*"
          
         />
+        
       </div>
       <div>
         <TextField
@@ -63,6 +64,21 @@ export default function Cadastrar() {
           helperText="*"
           variant="filled"
         />
+         <TextField
+          Formação Escolar
+          id="standard-error-helper-text"
+          label="Formação Escolar"
+          defaultValue="Formação Escolar"
+          helperText="*"
+          variant="filled"
+        />
+        <TextField
+         variant="filled"
+          Telefone
+          id="outlined-error-helper-text"
+          label="Telefone"
+          helperText="*"
+         />
       </div>
     </Box>
   );

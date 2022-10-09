@@ -10,7 +10,7 @@ import FormControl from '@mui/material/FormControl';
 
 
 
-export default function QuestNao() {
+export default function QuestSim() {
    return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center',}}>
       <div>
@@ -19,12 +19,12 @@ export default function QuestNao() {
             <FilledInput
               id="filled-adornment-amount"
                         
-              startAdornment={<InputAdornment position="start">não</InputAdornment>}
+              startAdornment={<InputAdornment position="start">sim</InputAdornment>}
             />
           </FormControl>
       </div>
         <FormControl fullWidth sx={{ m: 1, maxWidth: 600, padding: 3 }} variant="filled">
-            <InputLabel htmlFor="filled-adornment-amount">Qual é o nível de conhecimento do seu negócio?</InputLabel>
+            <InputLabel htmlFor="filled-adornment-amount">Qual é o nível de conhecimentos de negócios?</InputLabel>
             <FilledInput
               id="filled-adornment-amount"
                         
@@ -33,37 +33,37 @@ export default function QuestNao() {
           </FormControl>
       <div>
         <FormControl fullWidth sx={{ m: 1, maxWidth: 600, padding: 3  }} variant="filled">
-          <InputLabel htmlFor="filled-adornment-amount">Você já possui um modelo de négocio?</InputLabel>
+          <InputLabel htmlFor="filled-adornment-amount">Qual Modalidade do seu negócio?</InputLabel>
           <FilledInput
             id="filled-adornment-amount"
                       
-            startAdornment={<InputAdornment position="start">R:</InputAdornment>}
+            startAdornment={<InputAdornment position="start">R:Híbrido, virtual ou físico</InputAdornment>}
           />
         </FormControl>
 
       </div>
       <div>
       <FormControl fullWidth sx={{ m: 1, maxWidth: 600, padding: 3, }} variant="filled">
-          <InputLabel htmlFor="filled-adornment-amount">Qual é a sua renda mensal?</InputLabel>
+          <InputLabel htmlFor="filled-adornment-amount">Sobre o negócio, em qual categoria está segmentada?</InputLabel>
           <FilledInput
             id="filled-adornment-amount"
                       
-            startAdornment={<InputAdornment position="start">R$</InputAdornment>}
+            startAdornment={<InputAdornment position="start">Alimentação, Moda, Beleza, outro digite o ramo</InputAdornment>}
           />
         </FormControl>
         <div>
           <FormControl fullWidth sx={{ m: 1, maxWidth: 600, padding: 3, }} variant="filled">
-              <InputLabel htmlFor="filled-adornment-amount">Quanto você precisa para dar início ao seu  negócio?</InputLabel>
+              <InputLabel htmlFor="filled-adornment-amount">Como o microcrédito lhe ajudaria nesse momento?</InputLabel>
               <FilledInput
                 id="filled-adornment-amount"
                           
-                startAdornment={<InputAdornment position="start">R$</InputAdornment>}
+                startAdornment={<InputAdornment position="start">Digite 1, para compra de material, 2 para aumentar o capital de giro, 3 para outro</InputAdornment>}
               />
             </FormControl>
           </div>
           <div>
             <FormControl fullWidth sx={{ m: 1, maxWidth: 600, padding: 3, }} variant="filled">
-              <InputLabel htmlFor="filled-adornment-amount">Qual o valor que você pode pagar por mês?</InputLabel>
+              <InputLabel htmlFor="filled-adornment-amount">Qual o valor que você acha necessário para isso?</InputLabel>
                 <FilledInput
                  id="filled-adornment-amount"
                               
@@ -71,6 +71,7 @@ export default function QuestNao() {
                   />
             </FormControl>
           </div>
+          
       </div>
     </Box>
   );
