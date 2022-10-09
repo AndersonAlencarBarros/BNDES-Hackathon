@@ -4,8 +4,11 @@ BNDES Hackathon
 
 As dependencias encontram-se em `back/requirements.txt` e podem user usadas para criar um ambiente virtual.
 
-Primeiramente, execute para criar a build no projeto em React
+```
+pip install -r requirements.txt
+```
 
+Primeiramente, execute para criar a build no projeto em React
 
 ```
 npm run build
