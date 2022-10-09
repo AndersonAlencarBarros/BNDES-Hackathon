@@ -17,7 +17,7 @@ Em seguida basta executar o back-end do projeto, vá até a pasta `back` e execu
 python3 manage.py runserver
 ```
 
-Em seguida basta executar o back-end do projeto, vá até a pasta `front` e execute primeiramente
+Em seguida basta executar o front-end do projeto, vá até a pasta `front` e execute primeiramente
 
 ```
 npm install
