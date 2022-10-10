@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.ngrok.io', "bndes-hacka.herokuapp.com"]
 
 CORS_ORIGIN_WHITELIST = ('http://localhost:3000', )
 
@@ -70,7 +70,7 @@ BACKEND_DIR = BASE_DIR
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(FRONTEND_DIR / 'build')],   
+        'DIRS': [os.path.join(BACKEND_DIR / 'build')],   
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -133,7 +133,7 @@ USE_TZ = True
 
 # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [FRONTEND_DIR / 'build' / 'static']
+STATICFILES_DIRS = [BACKEND_DIR / 'build' / 'static']
 STATICFILES_STORAGE = (
     'whitenoise.storage.CompressedManifestStaticFilesStorage')
 STATIC_ROOT = BACKEND_DIR / 'static'
