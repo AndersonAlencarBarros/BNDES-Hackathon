@@ -10,6 +10,7 @@ import ButtonInit from "./components/Button/Button";
 import AccountMenu from "./components/Menu/Menu";
 import Cadastrar from "./container/Cadastro/Cadastro";
 import Quest from "./container/Quest/Quest";
+import QuestSim from "./container/QuestSim/QuestSimjsx";
 
 import { Navigate, Route, Routes } from "react-router-dom";
 
@@ -22,23 +23,7 @@ function App() {
 				minHeight: "100vh",
 			}}
 		>
-			{/* <AccountMenu />
-			<Home />
-			<ButtonInit/>
-			<Cadastrar />
-			<Quest /> */}
-			
-			<Container maxWidth={false} className="mb-5" disableGutters={true}>
-				<Routes>
-					<Route path="/" element={<Home />} />
- 
-
-				</Routes>
-
-			</Container>
-
-
-			<Footer />
+			 <Home />
 		</Box>
 	);
 }
