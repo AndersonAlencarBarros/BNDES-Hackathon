@@ -10,21 +10,21 @@ import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
+import cred from "../../assets/cred.png";
 
 export default function TitlebarImageList() {
 	return (
 		<Container>
 			<div className="mb-5">
-				<Typography variant="h1" component="h2">
-					Cred Jovem
-				</Typography>
-				<Typography variant="h5" component="h2">
+				<img src={cred} alt="logo" width="400" />
+
+				<Typography variant="h5" component="h2" className="fw-light">
 					O crédito para potencializar o jovem empreendedor.
 				</Typography>
 			</div>
 
 			<div className="row">
-				<div className="col">
+				<div className="col-4">
 					<a target={"_blank"} href="http://t.me/AylaBNDESBot">
 						<Button
 							variant="contained"
@@ -35,11 +35,15 @@ export default function TitlebarImageList() {
 						</Button>
 					</a>
 				</div>
-
-				<div className="col">
-          
-        </div>
 			</div>
+			<div className="mt-5">
+				<Typography className="fs-1 text fw-light">
+					Oferecer microcrédito para potencializar jovens
+					empreendedores não só de modo financeiro, mas de modo
+					educacional.
+				</Typography>
+			</div>
+			 
 		</Container>
 		// <ImageList sx={{ width: "100%", height: 500, padding: 10, }}>
 		//   <ImageListItem  cols={2}>
